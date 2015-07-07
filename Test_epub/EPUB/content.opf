@@ -29,10 +29,10 @@
     <item id="text5" href="03-Map.xhtml" media-type="application/xhtml+xml"/>
     <item id="text6" href="04-AnglesSurvey.xhtml" media-type="application/xhtml+xml"/>
 
-    <item id="html14" href="pix/ex1-epub-lg.xhtml" media-type="application/xhtml+xml"/>
-    <item id="html21" href="pix/map-context-lg.xhtml" media-type="application/xhtml+xml"/>
-    <item id="html25" href="pix/map-epub-long-lg.xhtml" media-type="application/xhtml+xml"/>
-    <item id="html36" href="pix/ex1-context-lg.xhtml" media-type="application/xhtml+xml"/>
+    <item id="html1" href="pix/ex1-epub-lg.xhtml" media-type="application/xhtml+xml"/>
+    <item id="html2" href="pix/map-context-lg.xhtml" media-type="application/xhtml+xml"/>
+    <item id="html3" href="pix/map-epub-long-lg.xhtml" media-type="application/xhtml+xml"/>
+    <item id="html4" href="pix/ex1-context-lg.xhtml" media-type="application/xhtml+xml"/>
 
     <item id="image2" href="images/ex1-context.jpg" media-type="image/jpeg"/>
     <item id="image4" href="images/ex1-epub.jpg" media-type="image/jpeg"/>
@@ -59,15 +59,15 @@
     <itemref idref="titlepage"/>
     <itemref idref="nav"/>
     <itemref idref="text1"/>
+    <itemref idref="html1" linear="no"/>
     <itemref idref="text2"/>
+    <itemref idref="html4" linear="no"/>
     <itemref idref="text3"/>
     <itemref idref="text4"/>
     <itemref idref="text5"/>
+    <itemref idref="html2" linear="no"/>
     <itemref idref="text6"/>
-    <itemref idref="html14" linear="no"/>
-    <itemref idref="html21" linear="no"/>
-    <itemref idref="html25" linear="no"/>
-    <itemref idref="html36" linear="no"/>
+    <itemref idref="html3" linear="no"/>
   </spine>
 
 </package>
