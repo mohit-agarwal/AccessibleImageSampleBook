@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+  <head>
+    <meta content="de3ae9bd-1fa2-418e-9561-573e168e9e78" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle><text>Accessible Image Sample Book</text></docTitle>
+
+<navMap>
+  <navPoint id="nav1" playOrder="1">
+    <navLabel><text>Preface</text></navLabel>
+    <content src="Preface.xhtml"/>
+  </navPoint>
+  <navPoint id="nav2" playOrder="2">
+    <navLabel><text>Getting Started</text></navLabel>
+    <content src="GettingStarted.xhtml"/>
+  </navPoint>
+  <navPoint id="nav3" playOrder="3">
+    <navLabel><text>Sample 1: Heart and Lung Diagram</text></navLabel>
+    <content src="01-HeartLung.xhtml"/>
+  </navPoint>
+  <navPoint id="nav4" playOrder="4">
+    <navLabel><text>Sample 2: Relational Diagrams</text></navLabel>
+    <content src="02-RelationalDiagrams.xhtml"/>
+    <navPoint id="nav9" playOrder="5">
+    <navLabel><text>Radial/Web Diagrams</text></navLabel>
+    <content src="02-RelationalDiagrams.xhtml#radial"/>
+    </navPoint>
+    <navPoint id="nav10" playOrder="6">
+    <navLabel><text>Hierarchy/Tree Diagrams</text></navLabel>
+    <content src="02-RelationalDiagrams.xhtml#hierarchy"/>
+    </navPoint>
+    </navPoint>
+  <navPoint id="nav5" playOrder="7">
+    <navLabel><text>Sample 3: Map of North America</text></navLabel>
+    <content src="03-Map.xhtml"/>
+  </navPoint>
+  <navPoint id="nav6" playOrder="8">
+    <navLabel><text>Sample 4: Angles on a Survey Map</text></navLabel>
+    <content src="04-AnglesSurvey.xhtml"/>
+  </navPoint>
+</navMap>
+
+</ncx>
